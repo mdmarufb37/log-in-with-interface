@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+  list-style: none;
+}
+
+body{
+  background: url(nature.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  padding: 0 7%;
+}
+
+.flex{
+  display: flex;
+}
+
+.d-inline{
+  display: inline;
+}
+
+.box{
+  max-width: 550px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.m-box{
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bg-orange{
+  background: green;
+}
+
+.bg-green{
+  background: green;
+}
+
+.bg-tr{
+  background: transparent;
+}
+
+.bg{
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px 0;
+}
+
+.btn{
+  color: #fff;
+  background-color: green;
+  padding: 10px 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: inline-block;
+}
+
+.i-box{
+  background: transparent;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid green;
+}
+
+.col-1{
+  width: 50%;
+}
+
+.col-2{
+  width: 100%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.m-auto{
+  margin: auto;
+}
+
+.my-1{
+  margin top: 10px;
+  margin bottom: 10px;
+}
+
+.mx-1{
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.me-1{
+	margin-right:32px;
+}
+
+.ms-1{
+	margin-left: 10px;
+}
+
+.ms-2{
+	margin-left: 300px;
+}
+
+.mt{
+  margin-top: 10px;
+}
+
+.mt-1{
+  margin-top: 20px;
+}
+
+.mt-2{
+  margin-top: 100px;
+}
+
+
+.mb-1{
+  margin-bottom: 20px;
+}
+
+.py{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-1{
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.pt-1{
+	padding-top: 16px;
+}
+
+.pt-2{
+	padding-top: 100px;
+}
+
+.pb-1{
+	padding-bottom: 16px;
+}
+
+.px-1{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.fs-1{
+	font-size: 20px;
+}
+
+.fs-2{
+	font-size: 25px;
+}
+
+.fs-3{
+	font-size: 70px;
+}
+
+.fs-4{
+  font-size: 40px;
+}
+
+.fw-bold{
+  font-weight: bold;
+}
+
+.border-radius{
+  border-radius: 10px;
+}
+.border-bottom{
+  border-bottom: 1px solid green;
+}
+
+
+.text-white{
+  color: white;
+}
+
+.text-aqua{
+  color: aqua;
+}
+
+.text-yellow{
+  color: yellow;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
